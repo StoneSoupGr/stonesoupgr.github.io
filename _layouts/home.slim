@@ -1,0 +1,10 @@
+doctype 5
+html lang="en"
+  head
+    title
+      | {{ page.title }}
+    link rel="stylesheet" type="text/css" href="/css/stonesoup.css"
+  body
+    section.container
+      | {% slim header.slim %}
+      | {{ content }}

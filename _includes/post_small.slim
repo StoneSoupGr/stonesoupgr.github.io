@@ -1,0 +1,16 @@
+section.entry
+  article
+    header
+      a
+        h1
+          a href="{{ post.url }}"
+            | {{ post.title }}
+    aside.details
+      span
+        strong Published
+        | {{ post.date | date_to_string }}
+      span
+        a href="{{ post.url }}" title="Read More" Read More
+    section
+      p
+        | {{ post.tagline }}
