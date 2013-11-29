@@ -1,0 +1,10 @@
+---
+layout: home
+title: "Stone Soup: Learn, Build, Ship"
+---
+
+#home
+  section.posts
+    | {% for post in site.posts %}
+    | {% slim post_small.slim %}
+    | {% endfor %}
