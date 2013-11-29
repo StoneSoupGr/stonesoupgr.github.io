@@ -1,8 +1,5 @@
-require 'bundler'
-require 'bundler/setup'
-Bundler.require(:default)
 
-namespace :github do
+namespace :site do
   desc "Build site to in master branch"
   task :build do
     `jekyll build`
