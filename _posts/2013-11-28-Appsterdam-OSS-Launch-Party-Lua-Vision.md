@@ -20,7 +20,7 @@ On Thursday December 5th, [Giannis Gravezas] will present his [Lua Vision] proje
 
 We will provide some drink and snacks, donations can made to [Appsterdam] to share in the costs.
 
-For more information see the [Appsterdam event page].
+For more information see the [Appsterdam event page] and the [Facebook event page].
 
 
 [Appsterdam]: http://greece.appsterdam.rs 'Appsterdam, By App Makers, For App Makers'
@@ -29,3 +29,4 @@ For more information see the [Appsterdam event page].
 [Kinect]: http://openkinect.org/ "Open Kinect"
 [Lua]: http://www.lua.org "The Programming Language Lua"
 [Appsterdam event page]: http://greece.appsterdam.rs
+[Facebook event page]: https://www.facebook.com/events/1385748788339397
