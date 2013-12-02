@@ -6,7 +6,7 @@ categories: tech media
 tagline: "Over the weekend we did a full Windows Update. Check the movie to see how we did it."
 ---
 
-Over the weekend we did a full Windows Updates.
+Over the weekend we did a full Windows Update.
 
 The update is now complete, so come hang out.
 
