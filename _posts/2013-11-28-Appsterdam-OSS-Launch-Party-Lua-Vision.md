@@ -28,5 +28,5 @@ For more information see the [Appsterdam event page] and the [Facebook event pag
 [Lua Vision]: https://github.com/wizgrav/lua-vision "Lua Vision On Github"
 [Kinect]: http://openkinect.org/ "Open Kinect"
 [Lua]: http://www.lua.org "The Programming Language Lua"
-[Appsterdam event page]: http://greece.appsterdam.rs
+[Appsterdam event page]: http://greece.appsterdam.rs/pages/Appsterdam-OSS-Launch-Party-Lua-Vision/
 [Facebook event page]: https://www.facebook.com/events/1385748788339397
