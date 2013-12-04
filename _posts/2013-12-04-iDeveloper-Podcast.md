@@ -10,7 +10,7 @@ The guys over at [iDeveloper] did a segment about [Stone Soup] on their [iDevelo
 
 [John C. Fox] and [Scotty] talk about the [pressure cooker] project we did with the guys of [CityShare].
 
-The coversation leads into an interesting debate about the value of an [MVP] and Killing Your Darlings and why you should concider coming over to Athens for a week or two.
+The coversation leads into an interesting debate about the value of an [MVP] and Killing Your Darlings and why you should consider coming over to Athens for a week or two.
 
 
 Thank you guys, and [Scotty], may you organize the best [NSConference] yet.
