@@ -3,7 +3,7 @@ layout: post
 title:  "iDeveloper Podcast"
 date:   2013-12-04 12:00:00
 categories: tech media podcast
-tagline: "The guys over at iDeveloper.co did a segment about Stone Soup on their podcast."
+tagline: "The guys over at iDeveloper.co did a segment on Stone Soup on their podcast."
 ---
 
 The guys over at [iDeveloper] did a segment about [Stone Soup] on their [iDeveloper Podcast].
