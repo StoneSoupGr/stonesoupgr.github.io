@@ -15,7 +15,7 @@ The coversation leads into an interesting debate about the value of an [MVP] and
 
 Thank you guys, and [Scotty], may you organize the best [NSConference] yet.
 
-You can find the [iDeveloper Podcast] episode [here][iDeveloper Podcast].
+You can find the [iDeveloper Podcast] episode [here][iDeveloper Podcast] (segment starts at 05:40).
 
 ![iDeveloper Podcast](/images/ideveloper-podcast.jpg)
 
