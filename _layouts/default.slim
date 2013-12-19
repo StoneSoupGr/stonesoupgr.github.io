@@ -8,6 +8,7 @@ html lang="en"
   body
     section.container.details
       | {% slim header.slim %}
+      | {% slim address.slim %}
       | {{ content }}
 
     | {% include analytics.html %}

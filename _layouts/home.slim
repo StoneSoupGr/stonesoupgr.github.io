@@ -9,7 +9,9 @@ html lang="en"
   body
     section.container
       | {% slim header.slim %}
+      | {% slim address.slim %}
       | {{ content }}
 
     | {% include analytics.html %}
     | {% include sharethis.html %}
+    
