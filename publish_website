@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby -wU
+
+Dir.chdir File.expand_path '..', __FILE__
+`rake site:build`
+
+puts "The website is generated in the master branch"
+puts "Push the repository to github to put the changes online"

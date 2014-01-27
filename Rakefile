@@ -8,7 +8,7 @@ namespace :site do
     `rm -rf _site/`
     `git symbolic-ref HEAD refs/heads/master`
     `git add .`
-    `git ci -a -m 'Generate site'`
+    `git commit -a -m 'Generate site'`
     `git reset`
     `git checkout development`
   end
