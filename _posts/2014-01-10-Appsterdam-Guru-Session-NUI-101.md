@@ -16,11 +16,16 @@ At the end of the session everybody had written his/her own visual application f
 
 We will be hosting the next session soon, so keep an eye on [Facebook] and [Twitter].
 
-About The Presenter
+<br>
+
+### About The Presenter
 
 Yannis is a NUI engineer and active contributor to the [Open Kinect] project. He is the author of [LuaVision], a scripting NUI platform.
 
 His work has been utilised by organizations like the [Athenian School of Fine Arts] and [european projects] for patient rehabilitation.
+
+<br>
+<br>
 
 ![NUI Session](/images/NUI101/image1.jpg)
 
