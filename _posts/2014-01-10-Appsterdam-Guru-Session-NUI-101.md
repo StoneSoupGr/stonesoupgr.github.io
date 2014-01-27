@@ -6,7 +6,7 @@ categories: tech media
 tagline: "In January we hosted the second Appsterdam Guru Session on Natural User Interfaces with Yannis Gravezas"
 ---
 
-On Saturday, January 10th we hosted the second Appsterdam Greece Guru Session.
+On Saturday, January 11th we hosted the second Appsterdam Greece Guru Session.
 
 Guru Sessions are informal, very hands-on workshops by the community for the community.
 
