@@ -2,6 +2,6 @@
 
 Dir.chdir File.expand_path '..', __FILE__
 `rake site:build`
+`git push origin master:master`
 
-puts "The website is generated in the master branch"
-puts "Push the repository to github to put the changes online"
+puts "The website has been published"
