@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en"><head><title>Stone Soup: Learn, Build, Ship in Athens</title><meta content="The guys over at iDeveloper.co did another segment on Stone Soup on their latest podcast." name="description" /><meta content="Stone Soup" name="author" /><link href="/css/stonesoup.css" rel="stylesheet" type="text/css" /></head><body><section class="container details"><header class="large"><nav class="social"><a href="https://twitter.com/StoneSoupGr" rel="Twitter" title="Follow Stone Soup On Twitter">Twitter</a><a href="http://facebook.com/StoneSoupGr" rel="Facebook" title="Like Stone Soup On FaceBook">Facebook</a><a href="https://github.com/StoneSoupGr" rel="Github" title="Fork Stone Soup On GitHub">Github</a><a href="https://linkedin.com/companies/stone-soup" rel="LinkeIn" title="Follow us on LinkeIn">LinkedIn</a></nav><h1>Stone Soup</h1><h2>Learn, Build, Ship</h2></header><figure class="address"><div id="map-stage"></div><address><a href="https://maps.google.com?q=Charilou Trikoupi 18, Athens, Greece"><span>Charilou Trikoupi 18</span><br /><span>5th floor</span><br /><span>Athens, Greece</span></a></address></figure><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBW9PaLmfLbvH2IhK4S0JAOrsa7XfQ55vY&amp;sensor=false" type="text/javascript"></script><script type="text/javascript">function initialize() {
+  var geocoder = new google.maps.Geocoder();
+  geocoder.geocode({ 'address': "Charilou Trikoupi 18, 5th floor, Athens, Greece" }, function(results, status) {
+    if (status != google.maps.GeocoderStatus.OK) {
+      return;
+    }
+    var location = results[0].geometry.location
+    var mapOptions = {
+      center: location,
+      zoom: 14,
+      disableDefaultUI: true
+    };
+    var map = new google.maps.Map(document.getElementById("map-stage"), mapOptions);
+
+    map.setCenter(location)
+    var marker = new google.maps.Marker({
+      position: location,
+      title: "Stone Soup",
+      animation: google.maps.Animation.DROP,
+      icon: "/images/Stone-Soup-Logo-Map-Icon.png",
+      url: "https://maps.google.com?q=Charilou Trikoupi 18, Athens, Greece"
+    })
+    setTimeout(function() {
+      marker.setMap(map)
+      google.maps.event.addListener(marker, 'click', function() {
+        if(confirm("View Stone Soup on Google Maps?")) {
+          window.location.href = marker.url
+        }
+      })
+    }, 1000);
+
+  });
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script><section class="entry"><article><nav><a href="/" title="Back To Stone Soup">Back</a></nav><header><h1>iDeveloper Podcast Vol.2</h1></header><aside class="details"><span><strong>Published</strong>17 Apr 2014</span></aside><section class="content"><p>Listen to episode 108 of the iDeveloperLive podcast where John Fox and Scotty talk about NSConference and John&#39;s visit to Athens.</p>
+
+<p>The guys discuss Stone Soup, Orange Grove, Appsterdam Greece and Athens as a place to hang out and get stuff done.</p>
+
+<p><img src="/images/ideveloper-podcast.jpg" alt="iDeveloper Podcast"></p>
+
+<p><audio controls="controls" preload="none"><br>
+  <source src="http://media.blubrry.com/ideveloper/ideveloperpodcast.ideveloper.co/ideveloper108.m4a"><br>
+</audio></p>
+</section></article></section></section><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46139942-1', 'stonesoup.io');
+  ga('send', 'pageview');
+</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-529c75a7307ec461"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'gray',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 3
+    }   
+  });
+</script>
+</body></html>
