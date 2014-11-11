@@ -75,6 +75,23 @@ a {
           }
         }
       }
+      .tab_menu {
+        display: block;
+        position: absolute;
+        right: 132px;
+        top: 32px - 11px;
+        text-align: right;
+        a {
+          color: $support-color;
+          display: block;
+          font-size: 18px;
+          padding: 11px 0 11px 0;
+          text-decoration: none;
+          &:hover {
+            color: $theme-color;
+          }
+        }
+      }
     }
   }
 
