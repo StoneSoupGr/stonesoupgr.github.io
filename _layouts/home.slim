@@ -8,6 +8,7 @@ html lang="en"
     link rel="stylesheet" type="text/css" href="/css/stonesoup.css"
   body
     section.container
+      | {% slim tab_menu.slim %}
       | {% slim header.slim %}
       | {% slim address.slim %}
       | {{ content }}
