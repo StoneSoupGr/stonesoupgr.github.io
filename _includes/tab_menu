@@ -1,5 +1,5 @@
 header.large
-  nav
+  nav.tab_menu
     a href="#" title="Follow Stone Soup On Twitter" rel="Home" Home
     a href="#" title="Follow Stone Soup On Twitter" rel="About" About
     a href="#" title="Like Stone Soup On FaceBook" rel="Workspace" Workspace
