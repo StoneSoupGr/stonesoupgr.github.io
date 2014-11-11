@@ -1,7 +1,0 @@
-#!/usr/bin/env ruby -wU
-
-Dir.chdir File.expand_path('..', __FILE__)
-`rake site:build`
-`git push origin master:master`
-
-puts "The website has been published"

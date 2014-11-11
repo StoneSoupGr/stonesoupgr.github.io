@@ -1,4 +1,0 @@
-#!/usr/bin/env ruby -wU
-
-Dir.chdir File.expand_path '..', __FILE__
-`jekyll serve --watch --drafts`
