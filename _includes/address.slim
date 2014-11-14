@@ -8,10 +8,11 @@ figure.address
       br
       span Athens, Greece
 script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBW9PaLmfLbvH2IhK4S0JAOrsa7XfQ55vY&sensor=false"
-javascript: 
+javascript:
   function initialize() {
     var geocoder = new google.maps.Geocoder();
-    geocoder.geocode({ 'address': "Charilou Trikoupi 18, 5th floor, Athens, Greece" }, function(results, status) {
+    geocoder.geocode({ 'address': "Charilou Trikoupi 18, 5th floor, Athens, Greece" },
+      function(results, status) {
       if (status != google.maps.GeocoderStatus.OK) {
         return;
       }
@@ -39,7 +40,6 @@ javascript:
           }
         })
       }, 1000);
-      
     });
   }
   google.maps.event.addDomListener(window, 'load', initialize);

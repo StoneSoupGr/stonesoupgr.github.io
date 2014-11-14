@@ -19,6 +19,23 @@ a {
   color: $theme-color * 0.6;
 }
 
+p {
+  text-align:justify;
+
+  &.cooker{
+  padding: 11px 300px 11px 300px;
+  }
+}
+
+img.cooker{
+  padding: 11px 11px 11px 11px;
+}
+
+img.logo{
+  height: 50%;
+  padding: 35px 35px 35px 35px;
+}
+
 .container {
   text-align: center;
   width: 100%;
@@ -75,25 +92,74 @@ a {
           }
         }
       }
-      .tab_menu {
-        display: block;
-        position: absolute;
-        right: 132px;
-        top: 32px - 11px;
-        text-align: right;
-        a {
-          color: $support-color;
-          display: block;
-          font-size: 18px;
-          padding: 11px 0 11px 0;
-          text-decoration: none;
-          &:hover {
-            color: $theme-color;
-          }
+    }
+  }
+
+> header_new {
+  background-color: $no-content-color;
+  background-position: center 97px;
+  background-size: (306px / 2) (306px / 2);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  &.large {
+    height: 140px;
+    background-color: black;
+    h1 {
+      color: $theme-color;
+      font-size: 48px;
+      left: 0;
+      margin: 0;
+      position: absolute;
+      top: 278px;
+      right: 0;
+    }
+
+    h2 {
+      color: $support-color;
+      font-size: 24px;
+      left: 0;
+      margin: 0;
+      position: absolute;
+      top: 339px;
+      right: 0;
+    }
+    .tab_menu {
+      display: block;
+      position: absolute;
+      right: 102px;
+      top: 72px - 11px;
+      text-align: right;
+      a {
+        color: $support-color;
+        display: inline;
+        width:200px;
+        font-size: 17px;
+        padding: 11px 11px 11px 0;
+        text-decoration: none;
+        &:hover {
+          color: $theme-color;
+        }
+      }
+    }
+    .socialImages {
+      display: block;
+      position: absolute;
+      right: 52px;
+      top: 12px - 11px;
+      img{
+        color: $support-color;
+        padding: 1px 1px 1px 1px;
+        &:hover {
+          color: $theme-color;
         }
       }
     }
   }
+}
 
   section.entry {
     background-color: $content-color;
@@ -190,4 +256,8 @@ a {
   img {
     height: 75px;
   }
+}
+
+.about_page{
+  width:100px;
 }

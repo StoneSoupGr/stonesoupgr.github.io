@@ -9,9 +9,6 @@ html lang="en"
   body
     section.container
       | {% slim tab_menu.slim %}
-      | {% slim header.slim %}
-      | {% slim address.slim %}
       | {{ content }}
-
     | {% include analytics.html %}
     | {% include sharethis.html %}

@@ -1,6 +1,6 @@
 name: Stone Soup
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /:year/:month/:title.html
 exclude: [Gemfile, Gemfile.lock, .gitignore, Rakefile]
 timezone: Europe/Athens
