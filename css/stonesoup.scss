@@ -43,9 +43,9 @@ img.logo{
 
   > header {
     background-color: $no-content-color;
-    background-image: url(/images/Stone-Soup-Logo.png);
-    background-position: center 97px;
-    background-size: (306px / 2) (306px / 2);
+    background-image: url(/images/Comp_01_done.jpg);
+    //background-position: center 97px;
+    background-size: (2800px / 2) (1400px / 2);
     background-repeat: no-repeat;
     display: block;
     margin: 0;
@@ -53,7 +53,7 @@ img.logo{
     position: relative;
 
     &.large {
-      height: 450px;
+      height: 550px;
 
       h1 {
         color: $theme-color;
