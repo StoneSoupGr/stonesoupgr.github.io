@@ -1,37 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><title>Stone Soup: Learn, Build, Ship in Athens</title><meta content="Frink! pitched their idea at the Entrepreneurship Bootcamp of the AUEB." name="description" /><meta content="Stone Soup" name="author" /><link href="/css/stonesoup.css" rel="stylesheet" type="text/css" /></head><body><section class="container details"><header class="large"><nav class="social"></nav></header><figure class="address"><div id="map-stage"></div><address><a href="https://maps.google.com?q=Charilou Trikoupi 18, Athens, Greece"><span>Charilou Trikoupi 18</span><br /><span>5th floor</span><br /><span>Athens, Greece</span></a></address></figure><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBW9PaLmfLbvH2IhK4S0JAOrsa7XfQ55vY&amp;sensor=false" type="text/javascript"></script><script type="text/javascript">function initialize() {
-  var geocoder = new google.maps.Geocoder();
-  geocoder.geocode({ 'address': "Charilou Trikoupi 18, 5th floor, Athens, Greece" },
-    function(results, status) {
-    if (status != google.maps.GeocoderStatus.OK) {
-      return;
-    }
-    var location = results[0].geometry.location
-    var mapOptions = {
-      center: location,
-      zoom: 14,
-      disableDefaultUI: true
-    };
-    var map = new google.maps.Map(document.getElementById("map-stage"), mapOptions);
-
-    map.setCenter(location)
-    var marker = new google.maps.Marker({
-      position: location,
-      title: "Stone Soup",
-      animation: google.maps.Animation.DROP,
-      icon: "/images/Stone-Soup-Logo-Map-Icon.png",
-      url: "https://maps.google.com?q=Charilou Trikoupi 18, Athens, Greece"
-    })
-    setTimeout(function() {
-      marker.setMap(map)
-      google.maps.event.addListener(marker, 'click', function() {
-        if(confirm("View Stone Soup on Google Maps?")) {
-          window.location.href = marker.url
-        }
-      })
-    }, 1000);
-  });
-}
-google.maps.event.addDomListener(window, 'load', initialize);</script><section class="entry"><article><nav><a href="/" title="Back To Stone Soup">Back</a></nav><header><h1>World premiere for Frink!</h1></header><aside class="details"><span><strong>Published</strong>05 Apr 2014</span></aside><section class="content"><p>The guys from <a href="https://www.facebook.com/frinkapp" target="_blank">Frink!</a> presented their idea at the Entrepreneurship Bootcamp of the Athens University of Economics and Business. The mentor reviews were raving and very encouraging. The guys also got a lot of helpful feedback and a couple of useful emails from acclaimed business people. </p>
+<!DOCTYPE html><html lang="en"><head><title>Stone Soup: Learn, Build, Ship in Athens</title><meta content="Frink! pitched their idea at the Entrepreneurship Bootcamp of the AUEB." name="description" /><meta content="Stone Soup" name="author" /><link href="/css/stonesoup.css" rel="stylesheet" type="text/css" /></head><body><section class="container details"><header class="large"><nav class="social"></nav></header><section class="entry"><article><nav><a href="/" title="Back To Stone Soup">Back</a></nav><header><h1>World premiere for Frink!</h1></header><aside class="details"><span><strong>Published</strong>05 Apr 2014</span></aside><section class="content"><p>The guys from <a href="https://www.facebook.com/frinkapp" target="_blank">Frink!</a> presented their idea at the Entrepreneurship Bootcamp of the Athens University of Economics and Business. The mentor reviews were raving and very encouraging. The guys also got a lot of helpful feedback and a couple of useful emails from acclaimed business people. </p>
 
 <p>Onwards to the prototype!</p>
 
