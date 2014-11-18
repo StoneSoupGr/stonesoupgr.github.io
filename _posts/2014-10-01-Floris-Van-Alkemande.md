@@ -2,7 +2,7 @@
 layout: post
 title:  "Meet Floris van Alkemade, VC"
 date:   2014-10-01 17:05:47
-categories: 
+categories:
 tagline: "Introducing Floris van Alkemade, VC, business angel and startup coach to the Greek tech scene"
 ---
 
