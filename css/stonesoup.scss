@@ -45,8 +45,9 @@ img.logo{
     background-color: $no-content-color;
     background-image: url(/images/Comp_01_done.jpg);
     //background-position: center 97px;
-    background-size: (2800px / 2) (1400px / 2);
+    background-size: 100% (1400px / 2);
     background-repeat: no-repeat;
+    height: auto;
     display: block;
     margin: 0;
     padding: 0;
