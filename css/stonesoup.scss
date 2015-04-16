@@ -20,8 +20,10 @@ a {
 }
 
 p {
-  text-align:justify;
-
+//   text-align:justify;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: lighter;
   &.cooker{
   padding: 11px 300px 11px 300px;
   }
@@ -45,16 +47,19 @@ img.logo{
     background-color: $no-content-color;
     background-image: url(/images/Comp_01_done.jpg);
     //background-position: center 97px;
-    background-size: 100% (1400px / 2);
+    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    background-position: center center;
+    height: 200px;
     display: block;
     margin: 0;
     padding: 0;
     position: relative;
 
     &.large {
-      height: 550px;
+      height: 400px;
+      overflow: hidden;
 
       h1 {
         color: $theme-color;
@@ -99,7 +104,8 @@ img.logo{
 > header_new {
   background-color: $no-content-color;
   background-position: center 97px;
-  background-size: (306px / 2) (306px / 2);
+  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   display: block;
   margin: 0;
@@ -171,6 +177,7 @@ img.logo{
 
   article {
     width: 960px;
+    max-width: 80%;
     text-align: left;
     display: block;
     margin: 0 auto 32px auto;
@@ -261,4 +268,15 @@ img.logo{
 
 .about_page{
   width:100px;
+}
+
+.content {
+  line-height: 1.9em;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: lighter;
+}
+
+.content img {
+  max-width: 70%;
 }

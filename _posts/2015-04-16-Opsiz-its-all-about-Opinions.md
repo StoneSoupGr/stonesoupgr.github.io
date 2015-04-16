@@ -6,11 +6,11 @@ categories: tech media interviews
 tagline: "Buidling Opsiz in the Pressure Cooker format"
 ---
 
-The week before Easter, [Stone Soup](http://stonesoup.io/) rounded up a third Pressure Cooker project, Opsiz.
+The week before Easter, [Stone Soup](http://stonesoup.io/) finished a third Pressure Cooker project, Opsiz.
 
 Jarrett and Loukas, the guys behind Opsiz found out about Stone Soup through the [Appsterdam](http://appsterdam.rs/) Meeten en Drinken event at La Rambla.  After spending some time getting to know each other, we decided to work together and try to build their idea at Stone Soup.
 
-We chose to work do a Pressure Cooker in order to produce the beta in two to three weeks. The client would in short time get a version of their idea that they could see, test and demo to others, and by the end of the project they would be a lot more knowledgeble about what it takes to turn an idea into running software. 
+We chose to do a Pressure Cooker to produce the beta in two to three weeks. The client would in short time get a version of their idea that they could see, test and demo to others, and by the end of the project they would be a lot more knowledgeble about what it takes to turn an idea into running software. 
 
 The development team, consisting of backend and frontend developers, AI experts and designers, were working hard for the full duration of the project. And the client was there to make sure we could keep discussions short and make fast decisions. In previous Pressure Cookers we helped [City Share](https://www.facebook.com/cityshare) and [Camerize](http://www.camerize.com/) get their product from idea to implementation, this time we worked with the guys of Opsiz to implement their social blogging and commenting platform. [SciFY](http://www.scify.gr/site/en/) and [Susurrus](http://www.susurrus.io/) also jumped on board to bring their experience in machine learning and blogging practices.
 
