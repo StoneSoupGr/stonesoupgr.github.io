@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Opsiz, it's all about Opinions"
-date: 2015-03-31 13:00:00
+date: 2015-04-16 13:00:00
 categories: tech media interviews
 tagline: "Buidling Opsiz in the Pressure Cooker format"
 ---
